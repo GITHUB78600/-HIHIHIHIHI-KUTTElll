@@ -52,7 +52,7 @@ const name = infu[qtv2[i].id].name;
       var callback = () =>
         api.sendMessage(
           {
-            body: `╭•┄┅═══❁🌺❁═══┅┄•╮\n     आरिफ़-बाबू!!🖤\n╰•┄┅═══❁🌺❁═══┅┄•╯ \n  🌺  [ 1 ]  𒁍 BOT NAME   → ${threadName}\n🌺  [ 2 ]  𒁍 GROUP NAME   → ${id}\n🌺  [ 3 ]  𒁍 APPROVAL   → ${pd}\n🌺  [ 4 ]  𒁍 EMOJI   → ${icon}\n🌺  [ 5 ]  𒁍  MEMBERS  → ${threadMem}\n🌺  [ 6 ]  𒁍  MALES  → ${nam}\n🌺  [ 7 ]  𒁍  FEMALES  →  ${nu}\n🌺  [ 8 ]  𒁍  TOTAL ADMIN  → ${qtv} \n╭•┄┅═══❁🌺❁═══┅┄•╮\n  🌸   𝐀𝐑𝐈𝐅-𝐁𝐀𝐁𝐔  🌸\n╰•┄┅═══❁🌺❁═══┅┄•╯`,
+            body: `╭•┄┅═══❁🌺❁═══┅┄•╮\n     आरिफ़-बाबू!!🖤\n╰•┄┅═══❁🌺❁═══┅┄•╯ \n  🌺  [ 1 ]  𒁍 GROUP NAME   → ${threadName}\n🌺  [ 2 ]  𒁍 GROUP NO.   → ${id}\n🌺  [ 3 ]  𒁍 APPROVAL   → ${pd}\n🌺  [ 4 ]  𒁍 EMOJI   → ${icon}\n🌺  [ 5 ]  𒁍  MEMBERS  → ${threadMem}\n🌺  [ 6 ]  𒁍  MALES  → ${nam}\n🌺  [ 7 ]  𒁍  FEMALES  →  ${nu}\n🌺  [ 8 ]  𒁍  TOTAL ADMIN  → ${qtv} \n╭•┄┅═══❁🌺❁═══┅┄•╮\n  🌸   𝐀𝐑𝐈𝐅-𝐁𝐀𝐁𝐔  🌸\n╰•┄┅═══❁🌺❁═══┅┄•╯`,
             attachment: fs.createReadStream(__dirname + '/cache/1.jpg')
           },
           event.threadID,
