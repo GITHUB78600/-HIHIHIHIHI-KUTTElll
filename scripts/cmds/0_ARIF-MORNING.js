@@ -11,7 +11,7 @@ module.exports = {
   config: {
     name: "good morning",
     version: "1.0",
-    author: "SHANKAR SUMAN",
+    author: "ARIF BABU",
     countDown: 5,
     role: 0,
     shortDescription: "no-prefix",
@@ -34,20 +34,18 @@ module.exports = {
     // Trigger words and their corresponding replies and GIF links
     const triggers = {
       "good morning": {
-        options: ["gm", "GM", "good morning", "gud morning"],
+        options: ["good morning", "morning", "GOOD MORNING", "MORNING", "शुभ प्रभात"],
         gifLinks: [
-          "https://i.ibb.co/hD1J9Zd/image.gif",
-          "https://i.ibb.co/0GqpG3N/image.gif",
-          "https://i.ibb.co/f2BBxcP/image.gif",
+         "https://i.postimg.cc/KcCtSD0C/7.gif",
 
-"https://i.ibb.co/8mDJWgS/image.gif",
+"https://i.postimg.cc/T33dtZrx/8.gif",
 
-"https://i.ibb.co/dGfbFyQ/image.gif",
+"https://i.postimg.cc/PxPKKrqD/9.gif",
 
-"https://i.ibb.co/pRqb3Y5/image.gif",          
+"https://i.postimg.cc/BnFj5Wsv/MORNING.gif",          
           // Add more GIF links here as per your requirement
         ],
-        replies: ["शुभ प्रभात, " + senderName + " बाबू", "VERY GOOD MORNING, " + senderName + " बाबू", "गुड मॉर्निंग, " + senderName + " बाबू"]
+        replies: ["𝐕𝐄𝐑𝐘 𝐆𝐎𝐎𝐃 𝐌𝐎𝐑𝐍𝐈𝐍𝐆 😇, " + senderName + " 𝐌𝐀𝐑𝐈 𝐉𝐀𝐀𝐍 😘", "𝐕𝐄𝐑𝐘 𝐆𝐎𝐎𝐃 𝐌𝐎𝐑𝐍𝐈𝐍𝐆 😇, " + senderName + " 𝐌𝐀𝐑𝐈 𝐉𝐀𝐀𝐍 😘", "𝐕𝐄𝐑𝐘 𝐆𝐎𝐎𝐃 𝐌𝐎𝐑𝐍𝐈𝐍𝐆 😇, " + senderName + " 𝐌𝐀𝐑𝐈 𝐉𝐀𝐀𝐍 😘"]
       }
     };
 
